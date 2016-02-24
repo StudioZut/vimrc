@@ -32,11 +32,11 @@ vnoremap p <Esc>:let current_reg = @"<CR>gvdi<C-R>=current_reg<CR><Esc>
 
 " Vim5 and later versions support syntax highlighting. Uncommenting the next
 " line enables syntax highlighting by default.
-" syntax on
+syntax on
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
-" set background=dark
+set background=dark
 
 if has("autocmd")
  " Enabled file type detection
