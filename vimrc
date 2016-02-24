@@ -1,5 +1,5 @@
 " Configuration file for vim
-set runtimepath=~/.vim,/etc/vim,/usr/share/vim/vimfiles,/usr/share/vim/addons,/usr/share/vim/vim63,/usr/share/vim/vimfiles,/usr/share/vim/addons/after,~/.vim/after
+" set runtimepath=~/.vim,/etc/vim,/usr/share/vim/vimfiles,/usr/share/vim/addons,/usr/share/vim/vim63,/usr/share/vim/vimfiles,/usr/share/vim/addons/after,~/.vim/after
 
 " Normally we use vim-extensions. If you want true vi-compatibility
 " remove change the following statements
@@ -9,8 +9,8 @@ set backspace=indent,eol,start	" more powerful backspacing
 " Now we set some defaults for the editor 
 set autoindent		" always set autoindenting on
 " set linebreak		" Don't wrap words by default
-set textwidth=0		" Don't wrap lines by default 
-set backupcopy=yes	" Keep a backup file
+" set textwidth=0		" Don't wrap lines by default 
+" set backupcopy=yes	" Keep a backup file
 set viminfo='20,\"50	" read/write a .viminfo file, don't store more than
 			" 50 lines of registers
 set history=50		" keep 50 lines of command line history
